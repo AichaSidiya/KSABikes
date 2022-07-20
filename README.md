@@ -1,36 +1,23 @@
 <!--Title-->
-# Effat University Book Club
+# KSABikes
 <!--Content Table-->
 
 ## Content 
 
-- [Effat University Book Club](#effat-university-book-club)
+- [KSABikes](#KSABikes)
   * [Purpose](#purpose)
   * [Description](#description)
   * [FRONT-END](#front-end)
     + [Website Layout](#website-layout)
       - [Home](#home)
-        * [Join Us](#join-us)
-        * [Log In](#log-in)
-          + [Profile](#profile)
-          + [Book Read](#book-read)
-      - [About Us](#about-us)
-      - [Event](#event)
-        * [Manage Event](#manage-event)
-      - [Club Members](#club-members)
-      - [Book List](#book-list)
-        * [Edit Book](#edit-book)
-        * [Delete Book](#delete-book)
+        * [Listings](#Listings)
+        * [Terms & Conditions](#Terms-&-Conditions)
+          
   * [Back-END](#back-end)
-    + [Members](#members)
-    + [Books](#books)
-    + [Events](#events)
-    + [Event Attendance](#event-attendance)
-    + [Messages](#messages)
+    + [Bike](#Bike)
   * [Files](#files)
     + [CSS](#css)
     + [Javascript](#javascript)
-  * [Enhancement](#enhancement)
   * [Getting Started](#getting-started)
     + [Dependencies](#dependencies)
     + [Installing](#installing)
@@ -44,7 +31,7 @@
 
 ## Purpose
 <!--Purpose of the project-->
-This poject is a website dedicated for Effat University book Club (leader and members). 
+This poject is a website dedicated for KSABikes, which is a website to advertiseEffat University book Club (leader and members). 
 
 <!--Header 2 description of the project-->
 ## Description
@@ -53,7 +40,7 @@ This poject is a website dedicated for Effat University book Club (leader and me
 
 <!--Header 3 front end-->
 ## FRONT-END
-We have a total of 19 pages.
+We have a total of 3 pages.
 
 ### Website Layout
 
@@ -106,49 +93,23 @@ We have a total of 19 pages.
 
 ## Back-END
 
-We have 5 tables in our database
+We have 1 table in our database
 
-### Members
-* Includes all the member information extracted from the join us form.
-### Books
-* Includes all the book information exctracted from the book read form.
-### Events
-* Includes all the event information exctracted from the add event form.
-### Event Attendance
-* Includes all the student and event id.
-### Messages
-* Includes the message and the the contact information of the user who left the message.
+### Bike
+* Includes all the bike information and picture insterted manually.
 
 
 ## Files
 ### CSS
 
-* Ourstyle.css
-* booklist.css
-* clubMembers.css
-* styles.css
-
+* reset.css
+* style.css
 
 ### Javascript
 
-* Bookread.js
-* Deletebook.js
-* Editbook.js
-* Editevent.js
-* Editprofile.js
-* eventRegistration.js
-* myScript.js
-* newevent.js
-* scripts.js
-
-## Enhancement
-* Send the contact us message to the vlub email.
-* Make non members caable of registering to attend the club event by changing the format of the register now form.
-* Add a back up button to the club members and book list pages
-* Add a menu and a back up buttoon to the event page for the each event
-* Add a more button to the each book in the book list and hide some the summary
-* Create an discssion board for each book and each event were more information is displayed and a discussion is provided via comments, in addition to a rating option.
-* Show the ration of the event and the book in the event and booklist page.
+* dropdownFilter.js
+* filter.js
+* scriptf.js
 
 
 <!--Header 3 installation and launching the project-->
@@ -192,7 +153,7 @@ localhost/dashboard/
 
 ![3](https://user-images.githubusercontent.com/91727165/147794096-fd8bc2ed-3721-4794-abfc-d10dfbce0831.png)
 
-* To check the database create a new database in phpmyadmin named bookckub then upload the given sql to the newly created database, by clicjing on import and import the provided bookclub sql.
+* To check the database create a new database in phpmyadmin named ksaBikes then upload the given sql to the newly created database, by clicking on import and import the provided bike sql.
 
 
 ![7](https://user-images.githubusercontent.com/91727165/147794091-56156a25-6edb-4ac6-a7af-7deeb11d7d50.png)
@@ -210,9 +171,6 @@ If the changes in the website does not appear try using another browser or click
 ## Authors
 <!-- The contributors to the project-->
 * [Aicha Sidiya](https://github.com/AichaSidiya)
-* Hanin AlZaher
-* Razan AlMahdi
-* Reem AlSharabi
 
 
 ## Acknowledgments
