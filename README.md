@@ -32,6 +32,8 @@
 ## Purpose
 <!--Purpose of the project-->
 This poject is a website dedicated for KSABikes, which is a website to advertise KSABikes.
+
+
 P.S: This github is only a part of the entire website. I worked on this part while my collegues worked on the rest. Note that the data provided in the table is minimal and not accurate it is just for the sake of viewing the functionality of the project. As this website is still not fully working and its data is private.
 
 <!--Header 2 description of the project-->
