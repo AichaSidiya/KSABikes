@@ -45,15 +45,19 @@ We have a total of 3 pages.
 ### Website Layout
 
 #### Home
-* Main activities that the club provide. 
-* Joining or logging in.
-* Contact the club. 
+The home page displays all the bikes stored in the databse with the main info, it also includes a filter.
+
+The home page uses two other php pages to display the data: 
+
+* The first is the allData.php which displays all the data
+* The second is fetchData.php which displays the data after the filter has been applied
+* Upon clicking on reset the allData.php page is called
 
 ##### Listings
-* Clicking on the join us button will lead the user to a form where she will fill her personal information including her name, id, email password...
+By clicking on any of the pictures of the bikes displayed in the home page the user is taken to a page displaying all the data and additinal pictures of the bike.
 
 ##### Terms & Conditions
-* Clicking on the log in button will lead the user to a form where she will fill her id and password and the website will check if it matches tha data in the databse then it will welcome the user.
+By clicking on the terms and condition in the footer a static terms and condition page is displayed.
 
 ## Back-END
 
@@ -71,9 +75,9 @@ We have 1 table in our database
 
 ### Javascript
 
-* dropdownFilter.js
-* filter.js
-* scriptf.js
+* dropdownFilter.js : I wanted to display the models for a particular make, thus, I created thus javascript which configures this dependecy, by calling dependantDropdown.php page to select only the models that have the chosen make.
+* filter.js: This javascrpt invokes the fetchData.php when the "Go" button is clicked to filter the data. When the "Reset" button is clicked the javascript invokes the allData.php page.
+* scriptf.js: this script is from a bootstrap and is used to animate the carosell. 
 
 
 <!--Header 3 installation and launching the project-->
@@ -130,11 +134,5 @@ If the changes in the website does not appear try using another browser or click
 
 ## Acknowledgments
 <!-- Insparation files, codes, and general refrences used in writing the code of the project-->
-* [BootStrap used](https://startbootstrap.com/previews/agency)
-* [JavaScript guide](https://www.w3schools.com/js/default.asp)
-* [JavaScript form Validation](https://www.javatpoint.com/confirm-password-validation-in-javascript)
-* [JavaScript password Validation](https://www.javatpoint.com/javascript-form-validation)
-* [JavaScript form Validation2](https://www.geeksforgeeks.org/form-validation-using-html-javascript/)
-* [CSS grid style](https://stackoverflow.com/questions/47587892/how-does-css-grid-layout-works)
 * [Readme Template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
 * [Readme Content Table](https://ecotrust-canada.github.io/markdown-toc/)
