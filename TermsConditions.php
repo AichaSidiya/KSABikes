@@ -22,10 +22,10 @@
 </div>
     <div class = "list">
     <ul class = "mylist">
-      <li class="listitem" ><a href="arabicindex.php">عربي |</a></li>
-      <li class="listitem"><a href="advertise.php" style="text-decorations:none; color:inherit;">Advertise |</a></li>
+      <li class="listitem" ><a href="#">عربي |</a></li>
+      <li class="listitem"><a href="#" style="text-decorations:none; color:inherit;">Advertise |</a></li>
     <li class="listitem"><img src="img/phone.png" alt="phone" name="phone" id="phone" class="phone"></li>
-      <li class="listitem">050-150-6968</li>
+      <li class="listitem">050-253-6978</li>
 
     </ul>
 </div>
@@ -170,10 +170,10 @@
     <div id = "first">Follow us</div>
     <div class='theright'>
       <div id = "second">
-         <a href="https://www.instagram.com/accounts/login/?next=/ksa.bikes/"><img src="img/instacon.png" name="insta" alt="insta" id="insta"></a>
-        <a href="https://twitter.com/ksabikes?fbclid=IwAR3IlK_X7ayVICXjpD3dec49Snc5mPM04e4XBeDMMON2MCEjQf7i4wOI4gA"><img src="img/twitcon.png" name="twit" alt="twit" id="twit"></a>
-        <a href = "https://www.snapchat.com/add/ksabikes?fbclid=IwAR1D8LyYSaH65wLFxStZY_tJF-WiNJs_exGOAyYBgGOO4mHBu_Cq0mhihZ8"><img src="img/snapcon.png" name="snap" alt="snap" id="snap"></a>
-        <a href="https://www.facebook.com/Ksabikes-102377671836286/"><img src="img/facecon.png" name="face" alt="face" id="face"></a>
+         <a href="#"><img src="img/instacon.png" name="insta" alt="insta" id="insta"></a>
+        <a href="#"><img src="img/twitcon.png" name="twit" alt="twit" id="twit"></a>
+        <a href = "#"><img src="img/snapcon.png" name="snap" alt="snap" id="snap"></a>
+        <a href="#"><img src="img/facecon.png" name="face" alt="face" id="face"></a>
 
       </div>
     </div>
