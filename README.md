@@ -31,13 +31,11 @@
 
 ## Purpose
 <!--Purpose of the project-->
-This poject is a website dedicated for KSABikes, which is a website to advertiseEffat University book Club (leader and members). 
+This poject is a website dedicated for KSABikes, which is a website to advertise KSABikes.
+P.S: This github is only a part of the entire website. I worked on this part while my collegues worked on the rest. Note that the data provided in the table is minimal and not accurate it is just for the sake of viewing the functionality of the project. As this website is still not fully working and its data is private.
 
 <!--Header 2 description of the project-->
 ## Description
-
-<p style="text-align: justify;"> This project will create a database for the club where the name, email and id of the members will be stored, it will also store a list of all the books they read and the events they organized. The website will display this information for all users, but it will also include a join us option for any new student who would like to be part of the club. After registering a student will log in and a profile will be created for her. The profile can be edited or deleted by the student. She will also be able to fill a form to discuss the book she read; she can later edit it the form. All users can register to attend the events organized by the club. Finally, the admin which is the club leader can add new event or edit existing ones and can delete books from the database.A contact option is also provided any user can leave a message to the club.</p>
-
 <!--Header 3 front end-->
 ## FRONT-END
 We have a total of 3 pages.
@@ -49,47 +47,11 @@ We have a total of 3 pages.
 * Joining or logging in.
 * Contact the club. 
 
-##### Join Us 
+##### Listings
 * Clicking on the join us button will lead the user to a form where she will fill her personal information including her name, id, email password...
 
-##### Log In
+##### Terms & Conditions
 * Clicking on the log in button will lead the user to a form where she will fill her id and password and the website will check if it matches tha data in the databse then it will welcome the user.
-
-###### Profile
-* Upon logging in the log in and join us buttoon will disapear, a logout option will appear on the menu and a profile page will be created with a edit and delete option.
-* The edit option will display a form of the user info.
-* Note that the admin can't delete her account she can only update the name and id and pass.
-
-###### Book Read
-* Club Members also have the option to add books by filing the form in the book read page that will appear in the menu upon logging in.
-
-#### About Us
-* In the upper menu a user that is not a member can browse to the about us page where a "Be Part of Our Family" will take her to the join us form. 
-
-#### Event
-* In the upper menu a user that is not a member can browse to the event page 
-* View and register to attend an events.
-* Manage event button for the admin.
-
-##### Manage Event
-* Clicking on the mange event button will take the admin to a page were she can add or edit or delete event. 
-* The add and edit event will take her to a form page to fill the required information.
-
-#### Club Members
-* In the upper menu a user that is not a member can browse to the club members page that lists all the club members, and provides genral info about them such as the genre they like and a small welcome message. It also indicates the leader of the club. A menu is provided to be able to go read about a particular member.
-
-#### Book List
-* In the upper menu a user that is not a member can browse to the book list page that lists all the books that the club read till now, and provides genral info about it such as the title, author and genre of the book in addition to a small summary.
-* Edit Book button for members and admin.
-* Delete button for the admin.
-
-##### Edit Book
-* Clicking on the edit book button will take the member to a page were she can edit the chosen book. 
-* The member has to fill the required information of the book.
-
-##### Delete Book
-* Clicking on the delete book button will take the member to a page were she can delete the chosen book. 
- 
 
 ## Back-END
 
@@ -154,15 +116,6 @@ localhost/dashboard/
 ![3](https://user-images.githubusercontent.com/91727165/147794096-fd8bc2ed-3721-4794-abfc-d10dfbce0831.png)
 
 * To check the database create a new database in phpmyadmin named ksaBikes then upload the given sql to the newly created database, by clicking on import and import the provided bike sql.
-
-
-![7](https://user-images.githubusercontent.com/91727165/147794091-56156a25-6edb-4ac6-a7af-7deeb11d7d50.png)
-
-![6](https://user-images.githubusercontent.com/91727165/147794090-8681a72f-3058-4903-9090-1cd248538fb3.png)
-
-![5](https://user-images.githubusercontent.com/91727165/147794089-0afc66d5-b13d-49d6-84bd-853f4bbe08f6.png)
-
-![4](https://user-images.githubusercontent.com/91727165/147794088-72eb10ec-1dcf-4419-8c98-e1243be89924.png)
 
 
 ### Help
