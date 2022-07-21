@@ -136,3 +136,5 @@ If the changes in the website does not appear try using another browser or click
 <!-- Insparation files, codes, and general refrences used in writing the code of the project-->
 * [Readme Template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
 * [Readme Content Table](https://ecotrust-canada.github.io/markdown-toc/)
+* [Product Filter](https://www.webslesson.info/2018/08/how-to-make-product-filter-in-php-using-ajax.html)
+* [Dependant dropdown list](https://www.laravelcode.com/post/how-to-make-dependent-dropdown-list-using-jquery-ajax-in-php)
