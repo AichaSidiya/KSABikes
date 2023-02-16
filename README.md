@@ -6,7 +6,6 @@
 
 - [KSABikes](#KSABikes)
   * [Purpose](#purpose)
-  * [Description](#description)
   * [FRONT-END](#front-end)
     + [Website Layout](#website-layout)
       - [Home](#home)
@@ -33,11 +32,10 @@
 <!--Purpose of the project-->
 This poject is a website dedicated for KSABikes, which is a website to advertise KSABikes.
 
+<img src="https://github.com/AichaSidiya/KSABikes/blob/main/demoKSABikes.gif" />
 
 P.S: This github is only a part of the entire website. I worked on this part while my collegues worked on the rest. Note that the data provided in the table is minimal and not accurate it is just for the sake of viewing the functionality of the project. As this website is still not fully working and its data is private.
 
-<!--Header 2 description of the project-->
-## Description
 <!--Header 3 front end-->
 ## FRONT-END
 We have a total of 3 pages.
@@ -130,6 +128,7 @@ If the changes in the website does not appear try using another browser or click
 ## Authors
 <!-- The contributors to the project-->
 * [Aicha Sidiya](https://github.com/AichaSidiya)
+* Sara Softa
 
 
 ## Acknowledgments
