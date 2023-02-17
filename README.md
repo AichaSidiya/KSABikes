@@ -49,7 +49,6 @@ The home page uses two other php pages to display the data:
 By clicking on any of the pictures of the bikes displayed in the home page the user is taken to a page displaying all the data and additinal pictures of the bike.
 
 #### Terms & Conditions
-By clicking on the terms and condition in the footer a static terms and condition page is displayed.
 
 ## Back-END
 
