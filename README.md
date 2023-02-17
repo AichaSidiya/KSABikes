@@ -67,9 +67,9 @@ We have 1 table in our database
 
 ### Javascript
 
-* dropdownFilter.js : I wanted to display the models for a particular make, thus, I created thus javascript which configures this dependecy, by calling dependantDropdown.php page to select only the models that have the chosen make.
-* filter.js: This javascrpt invokes the fetchData.php when the "Go" button is clicked to filter the data. When the "Reset" button is clicked the javascript invokes the allData.php page.
-* scriptf.js: this script is from a bootstrap and is used to animate the carosell. 
+* **dropdownFilter.js** : I wanted to display the models for a particular make, thus, I created thus javascript which configures this dependecy, by calling dependantDropdown.php page to select only the models that have the chosen make.
+* **filter.js**: This javascrpt invokes the fetchData.php when the "Go" button is clicked to filter the data. When the "Reset" button is clicked the javascript invokes the allData.php page.
+* scriptf.js
 
 ## Built With
 * HTML
