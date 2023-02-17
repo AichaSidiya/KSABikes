@@ -1,27 +1,5 @@
 <!--Title-->
 # KSABikes
-<!--Content Table-->
-
-## Content 
-
-- [KSABikes](#KSABikes)
-  * [Purpose](#purpose)
-  * [FRONT-END](#front-end)
-    + [Website Layout](#website-layout)
-      - [Home](#home)
-      - [Listings](#Listings)
-      - [Terms & Conditions](#Terms-&-Conditions)  
-  * [Back-END](#back-end)
-    + [Bike](#Bike)
-  * [Files](#files)
-    + [CSS](#css)
-    + [Javascript](#javascript)
-  * [Installation](#getting-started)
-  * [Features](#features)
-  * [Authors](#authors)
-  * [Acknowledgments](#acknowledgments)
-
-
 ## Purpose
 <!--Purpose of the project-->
 This poject is a website dedicated for KSABikes, which is a website to advertise KSABikes.
