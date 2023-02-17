@@ -9,21 +9,15 @@
   * [FRONT-END](#front-end)
     + [Website Layout](#website-layout)
       - [Home](#home)
-        * [Listings](#Listings)
-        * [Terms & Conditions](#Terms-&-Conditions)
-          
+      - [Listings](#Listings)
+      - [Terms & Conditions](#Terms-&-Conditions)  
   * [Back-END](#back-end)
     + [Bike](#Bike)
   * [Files](#files)
     + [CSS](#css)
     + [Javascript](#javascript)
-  * [Getting Started](#getting-started)
-    + [Dependencies](#dependencies)
-    + [Installing](#installing)
-    + [Viewing the Website](#viewing-the-website)
-      - [How to view the website](#how-to-view-the-website)
-      - [How to view the database](#how-to-view-the-database)
-    + [Help](#help)
+  * [Installation](#getting-started)
+  * [Features](#features)
   * [Authors](#authors)
   * [Acknowledgments](#acknowledgments)
 
@@ -47,14 +41,14 @@ The home page displays all the bikes stored in the databse with the main info, i
 
 The home page uses two other php pages to display the data: 
 
-* The first is the allData.php which displays all the data
-* The second is fetchData.php which displays the data after the filter has been applied
-* Upon clicking on reset the allData.php page is called
+* The first is the **allData.php** which displays all the data
+* The second is **fetchData.php** which displays the data after the filter has been applied
+* Upon clicking on **reset** the **allData.php** page is called
 
-##### Listings
+#### Listings
 By clicking on any of the pictures of the bikes displayed in the home page the user is taken to a page displaying all the data and additinal pictures of the bike.
 
-##### Terms & Conditions
+#### Terms & Conditions
 By clicking on the terms and condition in the footer a static terms and condition page is displayed.
 
 ## Back-END
@@ -77,53 +71,32 @@ We have 1 table in our database
 * filter.js: This javascrpt invokes the fetchData.php when the "Go" button is clicked to filter the data. When the "Reset" button is clicked the javascript invokes the allData.php page.
 * scriptf.js: this script is from a bootstrap and is used to animate the carosell. 
 
+## Built With
+* HTML
+* CSS
+* JavaScript
+* PHP
+* SQL
+* Bootstrap
 
 <!--Header 3 installation and launching the project-->
-## Getting Started
+## Installation
+* Clone the repository to your local machine:
+```
+git clone https://github.com/AichaSidiya/KSABikes.git
+```
+* Download [xampp](https://www.apachefriends.org/download.html)
+* Import the ksabikes.sql file to [phpmydamin](localhost/phpmyadmin/)
+* Update the databaseConnection.php file with your database credentials.
+* Host the files on a web server and access the website using your preferred browser.
 
+## Features
+* View avalble bikes
+* Filter 
+* Get more detail on particular bike with more pictures.
 ### Dependencies
+* Download [xampp](https://www.apachefriends.org/download.html)
 
-<!--Link to install the latest version of g++-->
-* This project is hosted on xampp and phpmyadmin. You will need to download xxamp to see it. a link is provided.
-* [xampp](https://www.apachefriends.org/download.html)
-
-### Installing
-<!--Steps of Installation-->
-* Download the xampp and install it. 
-* Download the zip file and create a folder for it.
-
-### Viewing the Website
-<!--Steps for running the program-->
-#### How to view the website
-* Look for Xampp Control Panel in your search bar
-
-![1](https://user-images.githubusercontent.com/91727165/147794092-3998f103-99bd-4560-835b-bfe9f7154c9c.png)
-
-* Start Apache and MySQL
-
-<img width="500" alt="2" src="https://user-images.githubusercontent.com/91727165/147794319-03138add-f182-4889-8fde-ab9adc36610a.PNG">
-
-* Search in your browser for:
-```
-localhost/index.php 
-``` 
-and then start browsing the website
-
-#### How to view the database
-* Search for:
-```
-localhost/dashboard/
-``` 
-
-* Then search for phpMyAdmin
-
-![3](https://user-images.githubusercontent.com/91727165/147794096-fd8bc2ed-3721-4794-abfc-d10dfbce0831.png)
-
-* To check the database create a new database in phpmyadmin named ksaBikes then upload the given sql to the newly created database, by clicking on import and import the provided bike sql.
-
-
-### Help
-If the changes in the website does not appear try using another browser or click on Fn + F5
 
 ## Authors
 <!-- The contributors to the project-->
