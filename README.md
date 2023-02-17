@@ -94,9 +94,6 @@ git clone https://github.com/AichaSidiya/KSABikes.git
 * View avalble bikes
 * Filter 
 * Get more detail on particular bike with more pictures.
-### Dependencies
-* Download [xampp](https://www.apachefriends.org/download.html)
-
 
 ## Authors
 <!-- The contributors to the project-->
